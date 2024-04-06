@@ -8,7 +8,7 @@ public class OrderRepository {
     HashMap<String,DeliveryPartner> partnerDB = new HashMap<>();
     HashMap<String,List<String>> pairDB = new HashMap<>();
     HashMap<String,String> assignDB=new HashMap<>();
-    
+
     public String addOrder(Order order){
         orderdb.put(order.getId(),order);
         return "Added";
